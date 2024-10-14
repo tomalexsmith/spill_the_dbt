@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: lego
+    database: split_the_dbt
+    schema: dbt_bronze
+    tables:
+      - name: colors
+      - name: inventories
+      - name: inventory_sets
+      - name: inventory_parts
+      - name: parts
+      - name: part_categories
+      - name: sets
+      - name: themes
+
+        
